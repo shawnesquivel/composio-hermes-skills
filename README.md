@@ -1,5 +1,7 @@
 # Composio skills for Hermes
 
+![Composio skills for Hermes](assets/thumbnail.png)
+
 A [Hermes Agent](https://github.com/NousResearch/hermes-agent) skill that teaches the agent to drive [Composio](https://composio.dev) through its local CLI — discovering tools for 1000+ apps (GitHub, Gmail, Slack, Notion, Linear, Jira, …), connecting accounts, inspecting schemas, executing tools, scripting workflows, listening for triggers, and proxying authenticated API calls.
 
 This repo follows the `<org>/skills` convention used by trusted Hermes publishers (e.g. `openai/skills`, `anthropics/skills`).
