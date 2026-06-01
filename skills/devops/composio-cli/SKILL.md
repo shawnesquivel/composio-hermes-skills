@@ -81,6 +81,17 @@ composio link strava
    curl -fsSL https://composio.dev/install | bash
    ```
 
+   On a headless box (server, gateway, cron) the default `composio login` browser flow won't work. Authenticate without a local browser instead:
+
+   ```bash
+   # Option A — paste an API key from https://dashboard.composio.dev (no browser)
+   composio login --user-api-key <KEY>
+
+   # Option B — open the browser on another machine
+   composio login --no-browser --no-wait   # prints a login URL + session key, then exits
+   composio login --key <session-key>       # finish on the server after authenticating
+   ```
+
    Then check what is already connected:
 
    ```bash
