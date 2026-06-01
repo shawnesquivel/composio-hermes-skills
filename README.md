@@ -17,13 +17,13 @@ This repo follows the `<org>/skills` convention used by trusted Hermes publisher
 Skills install directly from this public repo by `owner/repo/skill-path`:
 
 ```bash
-hermes skills install shawnesquivel/hermes-skills/skills/devops/composio-cli
+hermes skills install shawnesquivel/composio-hermes-skills/skills/devops/composio-cli
 ```
 
 Or add the repo as a tap and browse/search its skills:
 
 ```bash
-hermes skills tap add shawnesquivel/hermes-skills
+hermes skills tap add shawnesquivel/composio-hermes-skills
 hermes skills browse
 ```
 
@@ -45,7 +45,7 @@ hermes chat --toolsets skills -q "Use the composio-cli skill to find a tool that
 ## Repository layout
 
 ```text
-hermes-skills/
+composio-hermes-skills/
 ├── manifest.json                 # Bundle metadata + skill index
 ├── skills/
 │   └── devops/

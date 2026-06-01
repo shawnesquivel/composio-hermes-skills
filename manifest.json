@@ -1,9 +1,9 @@
 {
-  "name": "hermes-skills",
+  "name": "composio-hermes-skills",
   "description": "Composio skills for the Hermes Agent.",
   "author": "Composio",
   "license": "MIT",
-  "repository": "https://github.com/shawnesquivel/hermes-skills",
+  "repository": "https://github.com/shawnesquivel/composio-hermes-skills",
   "skills": [
     {
       "name": "composio-cli",
