@@ -1,0 +1,17 @@
+{
+  "name": "hermes-skills",
+  "description": "Composio skills for the Hermes Agent.",
+  "author": "Composio",
+  "license": "MIT",
+  "repository": "https://github.com/shawnesquivel/hermes-skills",
+  "skills": [
+    {
+      "name": "composio-cli",
+      "version": "1.0.0",
+      "category": "devops",
+      "path": "skills/devops/composio-cli/SKILL.md",
+      "platforms": ["macos", "linux"],
+      "description": "Use the local Composio CLI to discover app tools, connect accounts, inspect schemas, execute tools, script multi-step workflows, listen for trigger events, proxy authenticated API calls, and debug Composio developer projects."
+    }
+  ]
+}
